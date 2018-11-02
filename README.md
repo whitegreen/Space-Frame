@@ -32,7 +32,7 @@ The algorithm solves a matrix equation Ku=F, where K is the stiffness matrix, u 
 
 This library uses Jama to solve the equation: UA = M.solve_square_Axb(KAA, FA), see Frame3D.construct_matrices(). 
 
-One might replace this method using other linear solvers for better performances: 1. https://ujmp.org, or 2.https://github.com/fommil/matrix-toolkits-java (very fast) 
+One might replace this method using other linear solvers for better performances: 1. https://ujmp.org, or 2.https://github.com/fommil/matrix-toolkits-java (very fast). 
 
 ## 3. Output
 
@@ -51,5 +51,3 @@ The stiffness matrix (2D frame):
 
 The stiffness matrix (3D frame):
 ![alt text](k12.png "Description goes here")
-
- ```css <font color=#00ffff>ddsdg</font>```

@@ -3,7 +3,7 @@ FEM of 2D/3D frame
 
 The algorithm is based on A first course in the Finite Element Method 5th ed, Logan.
 
-This library uses Jama as the linear solver, however, the user may use other Java solver instead by modifying the source file.
+This library uses Jama(https://math.nist.gov/javanumerics/jama/) as the linear solver, however, the user may use other Java solver instead by modifying the source file.
 
 
 ## 1. Input
@@ -44,7 +44,7 @@ double[] UA; // (unconstrained) nodal displacement / rotation
 
 double[][] member_forces; // the local forces (fx1, fy1, fz1, mx1, my1, mz1, fx2, fy2, fz2, mx2, my2, mz2) of each member.
 
-## formula
+### formula
 
 The stiffness matrix (2D frame):
 ![alt text](k6.png "Description goes here")

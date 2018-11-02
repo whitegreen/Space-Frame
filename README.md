@@ -52,4 +52,6 @@ The stiffness matrix (2D frame):
 The stiffness matrix (3D frame):
 ![alt text](k12.png "Description goes here")
 
-<div style="color:#F00">colssg</div> 
+<p> <div style="color:#F00">colssg</div>  </p> 
+
+<font color=#00ffff>ddsdg=#00ffff</font>

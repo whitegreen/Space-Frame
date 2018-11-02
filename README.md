@@ -5,6 +5,13 @@ The algorithm is based on A first course in the Finite Element Method 5th ed, Lo
 
 This library uses Jama as the linear solver, however, the user may use other Java solver instead by modifying the source file.
 
+
+The stiffness matrix (2D frame):
+![alt text](k6.png "Description goes here")
+
+The stiffness matrix (3D frame):
+![alt text](k12.png "Description goes here")
+
 ## 1. Input
 double[][] nodes; // x,y,z-coordinates
 

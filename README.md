@@ -12,7 +12,7 @@ int[][] members; //members[2] ={6,8} means the 3rd member links 7th node to 9th 
 
 double[][] loads; // nodal: fx, fy, fz, mx, my, mz
 
-boolean[][] constrained; // constrained[2]={false, true, true} means the 3rd node is 1. constrained along y-axis, and 2. no rotation.
+boolean[][] constrained; // e.g. constrained[2]={false, true, false, true, false, false}  //u, v, w, phix, phiy, phiz
 	
 Double[] memb_selfweis; //self-weight of beam, unit: N or lb.
 

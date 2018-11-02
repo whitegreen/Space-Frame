@@ -27,7 +27,7 @@ public class TestFrame3D {
 		memb_selfweis[0] = 311.1269837;
 		memb_selfweis[2] = 508.5272854;  //always positive
 		boolean[][] constrained = new boolean[nodes.length][];
-		constrained[0] = new boolean[] { true, true, true, false, true, false }; // RX, RY, RZ, mx, my, mz;
+		constrained[0] = new boolean[] { true, true, true, false, true, false }; //x, y, z, mx, my, mz;
 		constrained[4] = new boolean[] { true, true, false, true, true, true };
 		constrained[5] = new boolean[] { true, false, true, true, false, false };
 		double[] As = new double[] { 10, 8, 6, 12, 14 };

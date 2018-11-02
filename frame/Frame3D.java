@@ -15,7 +15,7 @@ public class Frame3D {
 	private double[] Gs; // shear modulus, or modulus of rigidity
 	private double[] Js; // torsion constant
 	private double[] Iy, Iz; // principal moment of inertia
-	private boolean[][] constrained; // constrained[2]={false, true, true} means the 3rd node is 1. constrained along y-axis, and 2. no rotation.
+	private boolean[][] constrained; // e.g. constrained[2]={false, true, false, true, false, false}  //u, v, w, phix, phiy, phiz
 	private Integer[] ni2ai;
 
 	public int lenA; // the number of unconstrained nodal displacements.

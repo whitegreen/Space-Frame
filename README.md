@@ -3,7 +3,7 @@ FEM of 2D/3D frame
 
 The algorithm is based on A first course in the Finite Element Method 5th ed, Logan.
 
-This library uses Jama(https://math.nist.gov/javanumerics/jama/) as the linear solver, however, the user may use other Java solver instead by modifying the source file.
+This library uses Jama (https://math.nist.gov/javanumerics/jama/) as the linear solver, however, the user may use other Java solver instead by modifying the source file.
 
 
 ## 1. Input
@@ -32,9 +32,9 @@ The algorithm solves a matrix equation Ku=F, where K is the stiffness matrix, u 
 
 This library uses Jama to solve the equation: UA = M.solve_square_Axb(KAA, FA), see Frame3D.construct_matrices(). 
 
-One might replace this method using other linear solvers (e.g. https://github.com/fommil/matrix-toolkits-java) for a better performance.
+One might replace this method using other linear solvers for better performances: 1. https://ujmp.org, or 2.https://github.com/fommil/matrix-toolkits-java (very fast) 
 
-## 3. Ouput
+## 3. Output
 
 int lenA;  //the number of unconstrained nodal displacements.
 
@@ -51,3 +51,5 @@ The stiffness matrix (2D frame):
 
 The stiffness matrix (3D frame):
 ![alt text](k12.png "Description goes here")
+
+<div style="color:#F00">www.divcss5.com</div> 

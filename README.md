@@ -49,5 +49,9 @@ double[][] member_forces; // the local forces (fx1, fy1, fz1, mx1, my1, mz1, fx2
 The stiffness matrix (2D frame):
 ![alt text](k6.png "Description goes here")
 
+which is constructed from
+
+![alt text](formula2D.png "Description goes here")
+
 The stiffness matrix (3D frame):
 ![alt text](k12.png "Description goes here")

@@ -46,6 +46,8 @@ double[][] member_forces; // the local forces (fx1, fy1, fz1, mx1, my1, mz1, fx2
 
 ## A space frame of 18 nodes and 26 members
 
+see Building2b.java for detail. The core.jar and Peasycam.jar are for visualisation.
+
 ![alt text](FEM2.jpg "Description goes here")
 
 ![alt text](FEM3.jpg "Description goes here")

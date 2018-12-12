@@ -44,6 +44,7 @@ double[] UA; // (unconstrained) nodal displacement / rotation
 
 double[][] member_forces; // the local forces (fx1, fy1, fz1, mx1, my1, mz1, fx2, fy2, fz2, mx2, my2, mz2) of each member.
 
+
 ### formula
 
 The stiffness matrix (2D frame):
@@ -55,3 +56,10 @@ which is constructed from
 
 The stiffness matrix (3D frame):
 ![alt text](k12.png "Description goes here")
+
+## A space frame of 18 nodes and 26 members
+
+![alt text](space frame FEM.png "Description goes here")
+
+![alt text](un FEM.jpg "Description goes here")
+
